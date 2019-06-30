@@ -1,0 +1,2 @@
+# docs
+FileBot Documentation
