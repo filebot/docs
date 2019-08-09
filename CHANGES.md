@@ -3,7 +3,7 @@ Next Release (4.8.6)
 * Enable `clone` (macOS / APFS) and `reflink` (Linux / btrfs) by default for all `COPY` operations
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
-* Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeLists` or `XEM`)
+* Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeList` or `XEM`)
 * Added `{seasonize}` binding (e.g. map `AniDB` numbers to `TheTVDB` SxE numbers and vice versa)
 * Added `{history}` binding for looking up the original file path of `{f}` (e.g. useful for `-exec` post-processing commands)
 * Evaluate `{closures}` automatically in `String.plus(Closure)` constructs (e.g. `{"[" + {n} + " " + {s00e00} + "]"}`)
