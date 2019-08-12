@@ -4,7 +4,7 @@ Next Release (4.8.6)
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
 * Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeList` or `XEM`)
-* Added `{seasonize}` binding (e.g. map `AniDB` numbers to `TheTVDB` SxE numbers and vice versa)
+* Added `{db}` dynamic binding (e.g. map between `TheTVDB` and `AniDB` episode data)
 * Added `{history}` binding for looking up the original file path of `{f}` (e.g. useful for `-exec` post-processing commands)
 * Evaluate `{closures}` automatically in `String.plus(Closure)` constructs (e.g. `{"[" + {n} + " " + {s00e00} + "]"}`)
 * Ensure that `ActionPopup` is always displayed on top of the Windows Task Bar
@@ -12,7 +12,7 @@ Next Release (4.8.6)
 * Added `-no-history` and `-clear-history` CLI options
 * Allow dynamic code evaluation (e.g. `evaluate('/path/to/snippet.groovy' as File)`)
 * Allow `@file.groovy` syntax in `Format Editor` and `Preset Editor` (e.g. `@/path/to/MyFormat.groovy`)
-* Added `--mapper` option (e.g. `--mapper XEM.TheTVDB`)
+* Added `--mapper` option (e.g. `--mapper AnimeList.AniDB`)
 * Allow `*.groovy` files as argument value for `--format`, `--filter`, `--mapper` and `--file-filter` CLI options (e.g. `--format /path/to/MyFormat.groovy`)
 * Support `bash_completion`
 
