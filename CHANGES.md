@@ -1,6 +1,6 @@
 Next Release (4.8.6)
 ====================
-* Enable `clone` (macOS / APFS) and `reflink` (Linux / btrfs) by default for all `COPY` operations
+* Enable `clone` (macOS / apfs) and `reflink` (Linux / btrfs) by default for all `COPY` operations
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
 * Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeList` or `XEM`)
