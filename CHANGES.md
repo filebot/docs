@@ -4,10 +4,10 @@ Next Release (4.9.0)
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
 * Enhanced `manual search` to support both `search by name` and `lookup by id`
-* Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`](https://www.filebot.net/forums/viewtopic.php?t=11079)
+* Enable selected `post-processing features` via [`Filter ➔ Attributes ➔ Apply`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Standardize `{source}` values via [media-sources](https://github.com/filebot/data/blob/master/media-sources.txt)
 * Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeList` or `XEM`)
-* Added `{db}` dynamic binding (e.g. map between `TheTVDB` and `AniDB` episode data)
+* Added `{db}` dynamic binding (e.g. map between `TheTVDB` and `AniDB` episode objects)
 * Enhance `{primaryTitle}` to yield `AniDB` `x-jat` (romanized Japanese) series name for `TheTVDB` episode objects
 * Enhance `{hours}` to use [Ratio (U+2236)](https://unicode-table.com/en/2236/) instead of [Colon (U+003A)](https://unicode-table.com/en/003A/)
 * Added `{history}` binding for looking up the original file path of `{f}` (e.g. useful for `-exec` post-processing commands)
