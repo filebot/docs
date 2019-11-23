@@ -7,9 +7,9 @@ Next Release (4.9.0)
 * Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`]
 * Added `Smart Mode: Attributes` matcher (i.e. `xattr / exif / id3 / atom`)
 * Use [`F2`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Plain File Mode`
-* Standardize `{source}` values via [media-sources](https://github.com/filebot/data/blob/master/media-sources.txt)
 * Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeList` or `XEM`)
 * Added `{db}` dynamic binding (e.g. map between `TheTVDB` and `AniDB` episode objects)
+* Added [`{vs}`](https://www.filebot.net/forums/viewtopic.php?t=11265) standard media `{source}` tag
 * Enhance `{primaryTitle}` to yield `AniDB` `x-jat` (romanized Japanese) series name for `TheTVDB` episode objects
 * Enhance `{hours}` to use [Ratio (U+2236)](https://unicode-table.com/en/2236/) instead of [Colon (U+003A)](https://unicode-table.com/en/003A/)
 * Added `{history}` binding for looking up the original file path of `{f}` (e.g. useful for `-exec` post-processing commands)
