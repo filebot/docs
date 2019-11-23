@@ -4,7 +4,9 @@ Next Release (4.9.0)
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
 * Enhanced `manual search` to support both `search by name` and `lookup by id`
-* Enable selected `post-processing features` via [`Filter ➔ Attributes ➔ Apply`](https://www.filebot.net/forums/viewtopic.php?t=11079)
+* Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`]
+* Added `Smart Mode: Attributes` matcher (i.e. `xattr / exif / id3 / atom`)
+* Use [`F2`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Plain File Mode`
 * Standardize `{source}` values via [media-sources](https://github.com/filebot/data/blob/master/media-sources.txt)
 * Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeList` or `XEM`)
 * Added `{db}` dynamic binding (e.g. map between `TheTVDB` and `AniDB` episode objects)
