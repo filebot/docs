@@ -5,7 +5,7 @@ Next Release (4.9.0)
 * Use [`F2`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Plain File Mode`
 * Use [`F3`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Local Xattr Mode`
 * Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`](https://www.filebot.net/forums/viewtopic.php?t=11079)
-* Enable `clone` (on `apfs`) and `reflink` (on `btrfs`) by default for all `COPY` operations
+* Enable `clone` (on `macOS / apfs`) and `reflink` (on `Linux / btrfs`) by default for all `COPY` operations
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
 * Enhanced `manual search` to support both `search by name` and `lookup by id`
