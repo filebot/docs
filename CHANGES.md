@@ -4,7 +4,7 @@ Next Release (4.9.0)
 * Added `Smart Mode: Attributes` matcher (i.e. `xattr / exif / id3 / atom`)
 * Use [`F2`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Plain File Mode`
 * Use [`F3`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Local Xattr Mode`
-* Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`]
+* Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Enable `clone` (macOS / apfs) and `reflink` (Linux / btrfs) by default for all `COPY` operations
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
