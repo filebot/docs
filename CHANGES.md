@@ -1,12 +1,13 @@
 Next Release (4.9.0)
 ====================
+* Added `Edit Format` / `Edit Match` / `Edit Name` context menu
+* Added `Smart Mode: Attributes` matcher (i.e. `xattr / exif / id3 / atom`)
+* Use [`F2`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Plain File Mode`
+* Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`]
 * Enable `clone` (macOS / apfs) and `reflink` (Linux / btrfs) by default for all `COPY` operations
 * Enhanced `Selection Dialog` with thumbnails and tooltips
 * Enhanced `Conflict Dialog` with detailed explanations
 * Enhanced `manual search` to support both `search by name` and `lookup by id`
-* Enable selected post-processing features via [`Filter ➔ Attributes ➔ Apply`]
-* Added `Smart Mode: Attributes` matcher (i.e. `xattr / exif / id3 / atom`)
-* Use [`F2`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Plain File Mode`
 * Improved support for mapping episode information between different databases and numbering schemes (e.g. via `AnimeList` or `XEM`)
 * Added `{db}` dynamic binding (e.g. map between `TheTVDB` and `AniDB` episode objects)
 * Added [`{vs}`](https://www.filebot.net/forums/viewtopic.php?t=11265) standard media `{source}` tag
@@ -14,7 +15,6 @@ Next Release (4.9.0)
 * Enhance `{hours}` to use [Ratio (U+2236)](https://unicode-table.com/en/2236/) instead of [Colon (U+003A)](https://unicode-table.com/en/003A/)
 * Added `{history}` binding for looking up the original file path of `{f}` (e.g. useful for `-exec` post-processing commands)
 * Evaluate `{closures}` automatically in `String.plus(Closure)` constructs (e.g. `{"[" + {n} + " " + {s00e00} + "]"}`)
-* Ensure that `ActionPopup` is always displayed on top of the Windows Task Bar
 * Improved `-mediainfo -exec` pipeline
 * Added `-no-probe` option to disable media parser (e.g. match files without reading file contents)
 * Added `-no-history` and `-clear-history` options
