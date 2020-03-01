@@ -1,5 +1,5 @@
-Next Release (4.9.0)
-====================
+FileBot 4.9.0
+=============
 * Added `Edit Format` / `Edit Match` / `Edit Name` context menu
 * Added `Smart Mode: Attributes` matcher (i.e. `xattr / exif / id3 / atom`)
 * Use [`F2`](https://www.filebot.net/forums/viewtopic.php?t=2072) shortcut for `Plain File Mode`
