@@ -19,8 +19,8 @@ FileBot 4.9.0
 * Improved `-mediainfo -exec` pipeline
 * Added `-no-probe` option to disable media parser (e.g. match files without reading file contents)
 * Added `-no-history` and `-clear-history` options
-* Allow dynamic code evaluation via [`include`](https://www.filebot.net/forums/viewtopic.php?t=10839) and [`evaluate`](https://www.filebot.net/forums/viewtopic.php?t=10839) 
-* Allow `@file.groovy` syntax in `Format Editor` and `Preset Editor` (e.g. `@/path/to/MyFormat.groovy`)
+* Support dynamic code evaluation via [`include`](https://www.filebot.net/forums/viewtopic.php?t=10839) and [`evaluate`](https://www.filebot.net/forums/viewtopic.php?t=10839) 
+* Support `@file.groovy` syntax in `Format Editor` and `Preset Editor` (e.g. `@/path/to/MyFormat.groovy`)
 * Added [`--apply`](https://www.filebot.net/forums/viewtopic.php?t=11079) option (e.g. `--apply artwork nfo url metadata`)
 * Added [`--mapper`](https://www.filebot.net/forums/viewtopic.php?t=10996) option (e.g. `--mapper AnimeList.AniDB`)
 * Allow `*.groovy` files as argument value for `--format`, `--filter`, `--mapper` and `--file-filter` options (e.g. `--format /path/to/MyFormat.groovy`)
