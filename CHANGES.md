@@ -1,4 +1,4 @@
-FileBot 4.9.0
+FileBot 4.9.1
 =============
 * Added `Edit Format` / `Edit Match` / `Edit Name` context menu
 * Added `Smart Mode: Attributes` matcher (i.e. `xattr / exif / id3 / atom`)
@@ -18,6 +18,7 @@ FileBot 4.9.0
 * Evaluate `{closures}` automatically in `String.plus(Closure)` constructs (e.g. `{"[" + {n} + " " + {s00e00} + "]"}`)
 * Improved `-mediainfo -exec` pipeline
 * Added `-no-probe` option to disable media parser (e.g. match files without reading file contents)
+* Added `-no-index` option to disable local media indices (i.e. improved support for low-memory devices)
 * Added `-no-history` and `-clear-history` options
 * Support dynamic code evaluation via [`include`](https://www.filebot.net/forums/viewtopic.php?t=10839) and [`evaluate`](https://www.filebot.net/forums/viewtopic.php?t=10839) 
 * Support `@file.groovy` syntax in `Format Editor` and `Preset Editor` (e.g. `@/path/to/MyFormat.groovy`)
