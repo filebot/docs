@@ -14,7 +14,7 @@ FileBot 4.9.1
 * Added [`{vs}`](https://www.filebot.net/forums/viewtopic.php?t=11265) standard media `{source}` tag
 * Enhance `{primaryTitle}` to yield `AniDB` `x-jat` (romanized Japanese) series name for `TheTVDB` episode objects
 * Enhance `{hours}` to use [Ratio (U+2236)](https://unicode-table.com/en/2236/) instead of [Colon (U+003A)](https://unicode-table.com/en/003A/)
-* Added `{history}` binding for looking up the original file path of `{f}` (e.g. useful for `-exec` post-processing commands)
+* Added `{historic}` dynamic binding for looking up the original file path of `{f}` (e.g. `{historic.f}` is useful for `-exec` post-processing commands)
 * Evaluate `{closures}` automatically in `String.plus(Closure)` constructs (e.g. `{"[" + {n} + " " + {s00e00} + "]"}`)
 * Improved `-mediainfo -exec` pipeline
 * Added `-no-probe` option to disable media parser (e.g. match files without reading file contents)
