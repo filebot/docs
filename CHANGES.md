@@ -1,3 +1,22 @@
+FileBot 4.9.2
+=============
+* Enable `Dark Mode` by default on Windows (depending on system settings)
+* Restore `window bounds` and `window state` on startup (and actively prevent off-screen windows)
+* Enhanced notification layout for `multi-monitor` environments
+* Added `{decade}` convenience binding (e.g. `1970`)
+* Added `{anime}` boolean binding (i.e. best guess based on database, genre, language, country, etc)
+* Improved support for `3-digit` and `4-digit` season numbers
+* Improved support for `DE-ASCII` transliteration (e.g. `ÄäÖöÜüß`)
+* Enhanced `file path validation` on Linux (e.g. `GVFS`)
+* Enhanced `xattr` and `crc32` in-memory cache invalidation
+* Optimize `History` write operations
+* Added `-d` option (i.e. `Folder Mode`)
+* Added `-revert` command default behaviour (i.e. revert most recent `-rename` operation)
+* Improved support for [`--mode interactive`](https://www.filebot.net/forums/viewtopic.php?t=4398) on Windows
+* Improved support for [`@files`](https://www.filebot.net/forums/viewtopic.php?t=3244) (e.g. [`BOM`](https://en.wikipedia.org/wiki/Byte_order_mark))
+* Improved support for `hardlink` deduplication
+
+
 FileBot 4.9.1
 =============
 * Added `Edit Format` / `Edit Match` / `Edit Name` context menu
