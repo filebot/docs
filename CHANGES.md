@@ -1,8 +1,12 @@
 FileBot 4.9.2
 =============
-* Enable `Dark Mode` by default on Windows (depending on system settings)
+* Enable `Dark Mode` by default on Windows and macOS (depending on system settings)
+* Enhanced `Progress Monitor` and `Dialog` UI
+* Enhanced native `Desktop` integration
+* Enhanced configuration options for `Presets`
+* Improved support for `Export` and `Restore` of `User Data`
+* Improved support for `multi-monitor` environments
 * Restore `window bounds` and `window state` on startup (and actively prevent off-screen windows)
-* Enhanced notification layout for `multi-monitor` environments
 * Added `{decade}` convenience binding (e.g. `1970`)
 * Added `{anime}` boolean binding (i.e. best guess based on database, genre, language, country, etc)
 * Improved support for `3-digit` and `4-digit` season numbers
