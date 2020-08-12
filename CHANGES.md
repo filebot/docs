@@ -4,7 +4,7 @@ FileBot 4.9.2
 * Enhanced `Progress Monitor` and `Dialog` UI
 * Enhanced native `Desktop` integration
 * Enhanced configuration options for `Presets`
-* Improved support for `Export` and `Restore` of `User Data`
+* Improved support for `Export` and `Restore` of [`User Data`](https://www.filebot.net/forums/viewtopic.php?t=4205)
 * Improved support for `multi-monitor` environments
 * Restore `window bounds` and `window state` on startup (and actively prevent off-screen windows)
 * Added `{decade}` convenience binding (e.g. `1970`)
