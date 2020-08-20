@@ -16,7 +16,8 @@ FileBot 4.9.2
 * Optimize `History` write operations
 * Added `-d` option (i.e. `Folder Mode`)
 * Added `-revert` command default behaviour (i.e. revert most recent `-rename` operation)
-* Enhanced [`--mapper`](https://www.filebot.net/forums/viewtopic.php?t=10996) functions
+* Enhanced [`--q`](https://www.filebot.net/forums/viewtopic.php?t=12043) query expressions
+* Enhanced [`--mapper`](https://www.filebot.net/forums/viewtopic.php?t=10996) capabilities
 * Improved support for [`--mode interactive`](https://www.filebot.net/forums/viewtopic.php?t=4398) on Windows
 * Improved support for [`@files`](https://www.filebot.net/forums/viewtopic.php?t=3244) (e.g. [`BOM`](https://en.wikipedia.org/wiki/Byte_order_mark))
 * Improved support for `hardlink` deduplication
