@@ -1,3 +1,21 @@
+FileBot 4.9.3
+=============
+* Enhanced `Dark Mode` on Windows and macOS
+* Enhanced `FileDialog` implementation on Windows
+* Enhanced `Progress Monitor` for long-running post-process operations
+* Adaptive cache update and flush
+* Added `{info.video}` and `{info.status}` extended metadata bindings
+* Added `{files}` binding to list directory contents and archive contents
+* Enhanced `--apply prune` to delete only truly empty folders (i.e. no hidden files)
+* Enhanced `--apply tag` to support cover artwork attachments
+* Enhanced `--apply cover` and `--apply artwork` selection order
+* Added support for `.heic` image files
+* Reduce memory usage
+* Reduce JRE image size
+* Improved error messages
+* Support `Synology DSM 7.0`
+
+
 FileBot 4.9.2
 =============
 * Enable `Dark Mode` by default on Windows and macOS (depending on system settings)
