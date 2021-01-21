@@ -10,9 +10,7 @@ FileBot 4.9.3
 * Enhanced `--apply tag` to support cover artwork attachments
 * Enhanced `--apply cover` and `--apply artwork` selection order
 * Added support for `.heic` image files
-* Reduce memory usage
-* Reduce JRE image size
-* Improved error messages
+* Reduced image size and memory usage
 * Support `Synology DSM 7.0`
 
 
