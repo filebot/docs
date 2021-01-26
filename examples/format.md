@@ -35,6 +35,13 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 
 
 ## Advanced Snippets
+```groovy
+{ anime ? 'Anime' : 'TV Shows' }
+```
+```
+Anime
+TV Shows
+```
 
 
 ```groovy
@@ -44,4 +51,3 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 Movie Collection/Avatar Collection
 Movies
 ```
-
