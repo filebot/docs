@@ -4,7 +4,7 @@
 ## Basic Formats
 
 
-### Plex Path
+#### Plex Path
 ```groovy
 {plex}
 ```
@@ -14,7 +14,7 @@ TV Shows/Alias/Season 01/Alias - S01E01 - Truth Be Told
 ```
 
 
-### Plex Name
+#### Plex Name
 ```groovy
 {plex.name}
 ```
@@ -24,7 +24,7 @@ Alias - S01E01 - Truth Be Told
 ```
 
 
-### Plex Path Tail
+#### Plex Path Tail
 ```groovy
 {plex.tail}
 ```
@@ -35,6 +35,9 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 
 
 ## Advanced Snippets
+
+
+#### Separate Anime and non-Anime into different folders:
 ```groovy
 { anime ? 'Anime' : 'TV Shows' }
 ```
@@ -44,6 +47,7 @@ TV Shows
 ```
 
 
+#### Separate movie collections and standalone movies into different folders:
 ```groovy
 { any{ 'Movie Collection' / collection }{ 'Movies' } }
 ```
