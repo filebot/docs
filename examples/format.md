@@ -36,6 +36,14 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 
 ## Advanced Snippets
 
+#### Add 2-character language code for subtitles:
+```groovy
+{ '.' + lang.ISO2 }
+```
+```
+.en
+```
+
 
 #### Separate Anime and non-Anime into different folders:
 ```groovy
