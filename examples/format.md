@@ -65,7 +65,7 @@ Movies
 ```
 
 
-#### Map `AniDB` episode information to `TheTVDB` episode information:
+#### Map AniDB episode information to TheTVDB episode information:
 ```groovy
 { db.TheTVDB.plex.name }
 ```
