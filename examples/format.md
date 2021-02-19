@@ -55,6 +55,19 @@ TV Shows
 ```
 
 
+#### Add Dual and Multi if there are 2 or more audio languages:
+```groovy
+{
+	def n = audioLanguages.size()
+	n > 2 ? "Multi" : n > 1 ? "Dual" : null
+}
+```
+```
+Multi
+Dual
+```
+
+
 #### Separate movie collections and standalone movies into different folders:
 ```groovy
 { any{ 'Movie Collection' / collection }{ 'Movies' } }
