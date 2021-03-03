@@ -8,3 +8,9 @@ filebot -rename -r /input --file-filter "fn =~ /^B5/" --q 70726 --db TheTVDB -no
 ```
 [TEST] from [B5.1x01.mkv] to [Babylon 5 - 1x01 - Midnight on the Firing Line.mkv]
 ```
+
+
+#### Find incomplete or truncated media files:
+```
+filebot -mediainfo -r /input --filter media.IsTruncated --format {f}
+```
