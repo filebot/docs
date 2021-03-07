@@ -1,3 +1,8 @@
+FileBot 4.9.4 (BETA)
+=============
+* Support `find-as-you-type` in `Edit Match`
+
+
 FileBot 4.9.3
 =============
 * Enhanced `Dark Mode` on Windows and macOS
