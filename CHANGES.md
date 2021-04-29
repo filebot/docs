@@ -1,6 +1,7 @@
 FileBot 4.9.4 (BETA)
 =============
 * Support `find-as-you-type` in `Edit Match`
+* Added `{drive}` binding
 * Support `Java 16`
 
 
