@@ -1,7 +1,8 @@
 FileBot 4.9.4 (BETA)
 =============
 * Support `find-as-you-type` in `Edit Match`
-* Added `{drive}` binding
+* Added `{drive}` drive letter / network share / mount point binding
+* Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `Java 16`
 
 
