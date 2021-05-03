@@ -2,7 +2,7 @@
 
 
 #### Select and match a specific set of files with a specific series:
-```
+```sh
 filebot -rename -r /input --file-filter "fn =~ /^B5/" --q 70726 --db TheTVDB -non-strict --action TEST --log INFO
 ```
 ```
@@ -11,13 +11,13 @@ filebot -rename -r /input --file-filter "fn =~ /^B5/" --q 70726 --db TheTVDB -no
 
 
 #### Find incomplete or truncated media files:
-```
+```sh
 filebot -mediainfo -r /input --filter media.IsTruncated --format {f}
 ```
 
 
 
 #### Transcode subtitle files to SRT format / UTF-8 encoding:
-```
+```sh
 filebot -mediainfo -r /input --apply srt
 ```
