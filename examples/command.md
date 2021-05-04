@@ -1,4 +1,4 @@
-# FileBot Command Examples
+# FileBot Command-Line Usage Examples
 
 
 #### Select and match a specific set of files with a specific series:
