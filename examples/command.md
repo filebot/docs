@@ -13,7 +13,7 @@ filebot -rename -r /input --file-filter "fn =~ /^B5/" --q 70726 --db TheTVDB -no
 
 
 
-#### Select and match a specific set of files with a specific series and season:
+#### Select and match a specific set of files from the current working directory with a specific series and season:
 ```sh
 filebot -rename *Railgun*S* --q "A Certain Scientific Railgun" --filter "s == 2" -non-strict --action TEST --log INFO
 ```
