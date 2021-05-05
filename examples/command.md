@@ -23,6 +23,18 @@ filebot -rename *Railgun*S* --q "A Certain Scientific Railgun" --filter "s == 2"
 ```
 
 
+
+#### Rename video files using the name of the parent folder for each file:
+```sh
+filebot -rename -r . --file-filter f.video --db file --format "{folder.name}" --action TEST --log INFO
+```
+```
+[TEST] from [Avatar (2009)/a.mp4] to [Avatar (2009)/Avatar (2009).mp4]
+⋮
+```
+
+
+
 #### Find incomplete or truncated media files:
 ```sh
 filebot -mediainfo -r /input --filter media.IsTruncated --format {f}
