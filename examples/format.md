@@ -34,6 +34,20 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ```
 
 
+## Basic Snippets
+
+#### Parent Folder Path
+```groovy
+{ folder }
+```
+
+
+#### Parent Folder Name
+```groovy
+{ folder.name }
+```
+
+
 ## Advanced Snippets
 
 #### Add 2-character language code for subtitles:
