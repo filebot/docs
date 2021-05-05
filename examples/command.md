@@ -24,7 +24,7 @@ filebot -rename *Railgun*S* --q "A Certain Scientific Railgun" --filter "s == 2"
 
 
 
-#### Rename video files using the name of the parent folder for each file:
+#### Rename video files to the name of the parent folder:
 ```sh
 filebot -rename -r . --file-filter f.video --db file --format "{folder.name}" --action TEST --log INFO
 ```
