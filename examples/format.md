@@ -4,7 +4,7 @@
 ## Movie / Episode formats
 
 
-#### Plex Path
+#### Plex file path
 ```groovy
 { plex }
 ```
@@ -15,7 +15,7 @@ TV Shows/Alias/Season 01/Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
-#### Plex Name
+#### Plex file name
 ```groovy
 { plex.name }
 ```
@@ -26,7 +26,7 @@ Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
-#### Plex Path Tail
+#### Plex file path without Movies / TV Shows folder
 ```groovy
 { plex.tail }
 ```
@@ -41,12 +41,12 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ## Generic file format snippets
 
 
-#### Parent Folder Path
+#### Parent folder path
 ```groovy
 { folder }
 ```
 
-#### Parent Folder Name
+#### Parent folder name
 ```groovy
 { folder.name }
 ```
@@ -55,7 +55,7 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ## Advanced format snippets
 
 
-#### Add 2-character language code for subtitles:
+#### Add 2-character language code for subtitle files:
 ```groovy
 { '.' + lang.ISO2 }
 ```
@@ -64,7 +64,7 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
-#### Separate Anime and non-Anime into different folders:
+#### Separate Anime and non-Anime episode files into different folders:
 ```groovy
 { anime ? 'Anime' : 'TV Shows' }
 ```
@@ -73,7 +73,7 @@ Anime
 TV Shows
 ```
 
-#### Add Dual and Multi if there are 2 or more audio languages:
+#### Add Dual and Multi for 2 or more audio languages:
 ```groovy
 {
 	def n = audioLanguages.size()
@@ -95,7 +95,7 @@ Movie Collection/Avatar Collection
 Movies
 ```
 
-#### Map AniDB episode information to TheTVDB episode information:
+#### Map AniDB episode information to TheTVDB file naming:
 ```groovy
 { db.TheTVDB.plex.name }
 ```
