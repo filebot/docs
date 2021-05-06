@@ -10,7 +10,9 @@
 ```
 ```
 Movies/Avatar (2009)/Avatar (2009)
+⋮
 TV Shows/Alias/Season 01/Alias - S01E01 - Truth Be Told
+⋮
 ```
 
 #### Plex Name
@@ -19,7 +21,9 @@ TV Shows/Alias/Season 01/Alias - S01E01 - Truth Be Told
 ```
 ```
 Avatar (2009)
+⋮
 Alias - S01E01 - Truth Be Told
+⋮
 ```
 
 #### Plex Path Tail
@@ -28,7 +32,9 @@ Alias - S01E01 - Truth Be Told
 ```
 ```
 Avatar (2009)/Avatar (2009)
+⋮
 Alias/Season 01/Alias - S01E01 - Truth Be Told
+⋮
 ```
 
 
@@ -55,6 +61,7 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ```
 ```
 .en
+⋮
 ```
 
 #### Separate Anime and non-Anime into different folders:
@@ -84,6 +91,7 @@ Dual
 ```
 ```
 Movie Collection/Avatar Collection
+⋮
 Movies
 ```
 
@@ -93,4 +101,5 @@ Movies
 ```
 ```
 Sword Art Online - S04E23 - New World
+⋮
 ```
