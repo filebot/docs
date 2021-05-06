@@ -1,7 +1,7 @@
 # FileBot Custom Format Examples
 
 
-## Basic Formats
+## Movie / Episode formats
 
 
 #### Plex Path
@@ -13,7 +13,6 @@ Movies/Avatar (2009)/Avatar (2009)
 TV Shows/Alias/Season 01/Alias - S01E01 - Truth Be Told
 ```
 
-
 #### Plex Name
 ```groovy
 { plex.name }
@@ -22,7 +21,6 @@ TV Shows/Alias/Season 01/Alias - S01E01 - Truth Be Told
 Avatar (2009)
 Alias - S01E01 - Truth Be Told
 ```
-
 
 #### Plex Path Tail
 ```groovy
@@ -34,13 +32,13 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ```
 
 
-## Basic Snippets
+## Generic file format snippets
+
 
 #### Parent Folder Path
 ```groovy
 { folder }
 ```
-
 
 #### Parent Folder Name
 ```groovy
@@ -48,7 +46,8 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ```
 
 
-## Advanced Snippets
+## Advanced format snippets
+
 
 #### Add 2-character language code for subtitles:
 ```groovy
@@ -58,7 +57,6 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 .en
 ```
 
-
 #### Separate Anime and non-Anime into different folders:
 ```groovy
 { anime ? 'Anime' : 'TV Shows' }
@@ -67,7 +65,6 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 Anime
 TV Shows
 ```
-
 
 #### Add Dual and Multi if there are 2 or more audio languages:
 ```groovy
@@ -81,7 +78,6 @@ Multi
 Dual
 ```
 
-
 #### Separate movie collections and standalone movies into different folders:
 ```groovy
 { any{ 'Movie Collection' / collection }{ 'Movies' } }
@@ -90,7 +86,6 @@ Dual
 Movie Collection/Avatar Collection
 Movies
 ```
-
 
 #### Map AniDB episode information to TheTVDB episode information:
 ```groovy
