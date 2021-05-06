@@ -26,13 +26,23 @@ filebot -rename *Railgun*S* --q "A Certain Scientific Railgun" --filter "s == 2"
 
 #### Rename video files using the name of the parent folder:
 ```sh
-filebot -rename -r . --file-filter f.video --db file --format "{folder.name}" --action TEST --log INFO
+filebot -rename -r /input --file-filter f.video --db file --format "{folder.name}" --action TEST --log INFO
 ```
 ```
 [TEST] from [Avatar/a.mp4] to [Avatar/Avatar.mp4]
 ⋮
 ```
 
+
+
+#### Move files into folders using the file name as folder name:
+```sh
+filebot -rename -r /input --file-filter f.video --db file --format "{fn}/{fn}" --action TEST --log INFO
+```
+```
+[TEST] from [Avatar.mp4] to [Avatar/Avatar.mp4]
+⋮
+```
 
 
 #### Find incomplete or truncated media files:
