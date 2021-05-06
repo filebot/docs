@@ -1,22 +1,34 @@
 # FileBot Command-Line Usage Examples
 
+
+## Rename TV Series episode files
+
+
 #### Select and match a specific set of files with a specific series:
 ```sh
-filebot -rename -r /input --file-filter "fn =~ /^B5/" --q 70726 --db TheTVDB -non-strict
+filebot -rename -r /input --file-filter "fn =~ /^B5/" --db TheTVDB --q 70726 -non-strict
 ```
 ```
 [TEST] from [B5.1x01.mkv] to [Babylon 5 - 1x01 - Midnight on the Firing Line.mkv]
 ⋮
 ```
 
+
+## Rename Anime episodes
+
+
 #### Select and match a specific set of files from the current working directory with a specific series and season:
 ```sh
-filebot -rename *Railgun*S* --q "A Certain Scientific Railgun" --filter "s == 2" -non-strict
+filebot -rename *Railgun*S* --db TheTVDB --q "A Certain Scientific Railgun" --filter "s == 2" -non-strict
 ```
 ```
 [TEST] from [Toaru Kagaku no Railgun S - 01.mkv] to [A Certain Scientific Railgun - 2x01 - Railgun.mkv]
 ⋮
 ```
+
+
+## Rename generic files
+
 
 #### Rename video files using the name of the parent folder:
 ```sh
@@ -36,10 +48,18 @@ filebot -rename -r /input --file-filter f.video --db file --format "{fn}/{fn}"
 ⋮
 ```
 
+
+## Find files and print file information
+
+
 #### Find incomplete or truncated media files:
 ```sh
 filebot -mediainfo -r /input --filter media.IsTruncated --format {f}
 ```
+
+
+## Find files and execute commands
+
 
 #### Transcode subtitle files to SRT format / UTF-8 encoding:
 ```sh
@@ -49,4 +69,4 @@ filebot -mediainfo -r /input --apply srt
 
 # Notes
 
-* All `-rename` commands listed above use `--action TEST` and `--log INFO` to reduce console log verbosity.
+* The `-rename` commands listed above use `--action TEST` and `--log INFO` to reduce console log verbosity.
