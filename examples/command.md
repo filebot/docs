@@ -28,7 +28,7 @@ filebot -rename *Railgun*S* --db TheTVDB --q "A Certain Scientific Railgun" --fi
 
 #### Use AnimeList mapper to translate AniDB naming and numbering to TheTVDB naming and numbering:
 ```sh
-filebot -rename Nise* --db TheTVDB --mapper AnimeList.AniDB -non-strict
+filebot -rename *.mkv --db TheTVDB --mapper AnimeList.AniDB -non-strict
 ```
 ```
 [TEST] from [Nisemonogatari - 01.mkv] to [Monogatari - 2x01 - Karen Bee - Part 1.mkv]
