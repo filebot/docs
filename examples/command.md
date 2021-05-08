@@ -14,7 +14,7 @@ filebot -rename -r /input --file-filter "fn =~ /^B5/" --db TheTVDB --q 70726 -no
 ```
 
 
-## Rename Anime episodes
+## Rename Anime episode files
 
 
 #### Select and match a specific set of files from the current working directory with a specific series and season:
@@ -33,6 +33,18 @@ filebot -rename *.mkv --db TheTVDB --mapper AnimeList.AniDB -non-strict
 ```
 [TEST] from [Nisemonogatari - 01.mkv] to [Monogatari - 2x01 - Karen Bee - Part 1.mkv]
 ⋮
+```
+
+
+## Rename Movie files
+
+
+#### Rename a movie file by numeric ID:
+```sh
+filebot -list --db TheMovieDB --q 19995 --format "{ny} [M{id}]" -rename "a.mkv"
+```
+```
+[TEST] from [a.mkv] to [Avatar (2009) [M19995].mkv]
 ```
 
 
