@@ -3,6 +3,7 @@ FileBot 4.9.4 (BETA)
 * Support `find-as-you-type` in `Edit Match`
 * Added `{drive}` drive letter / network share / mount point binding
 * Added `{vbr}` video bitrate and `{abr}` audio bitrate bindings
+* Improved grouping and sorting for custom [Presets](https://www.filebot.net/forums/viewtopic.php?t=3228)
 * Use smart types for `{bitrate}`, `{bytes}`, `{fps}`, `{af}` and `{channels}` bindings
 * Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `--db TheMovieDB` in [`-list -rename`](https://www.filebot.net/forums/viewtopic.php?t=12553) commands
