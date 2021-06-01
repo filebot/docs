@@ -6,6 +6,7 @@ FileBot 4.9.4 (BETA)
 * Added `{vbr}` video bitrate and `{abr}` audio bitrate bindings
 * Enhanced and more versatile `{plex}`, `{kodi}` and `{emby}` bindings
 * Use smart unit types for `{bitrate}`, `{bytes}`, `{fps}`, `{af}` and `{channels}` bindings
+* Added [`-find` `-exec`](https://www.filebot.net/forums/viewtopic.php?t=12622) command
 * Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `--db TheMovieDB` in [`-list -rename`](https://www.filebot.net/forums/viewtopic.php?t=12553) commands
 * Support `Virtual Terminal Sequences` on `Windows 10`
