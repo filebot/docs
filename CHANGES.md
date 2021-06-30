@@ -4,9 +4,13 @@ FileBot 4.9.4 (BETA)
 * Improved grouping and sorting for custom [Presets](https://www.filebot.net/forums/viewtopic.php?t=3228)
 * Added `{drive}` drive letter / network share / mount point binding
 * Added `{vbr}` video bitrate and `{abr}` audio bitrate bindings
+* Added `{vcf}` video compression format and `{ar}` aspect ratio bindings
+* Added `{country}` production country binding
 * Enhanced and more versatile `{plex}`, `{kodi}` and `{emby}` bindings
 * Use smart unit types for `{bitrate}`, `{bytes}`, `{fps}`, `{af}` and `{channels}` bindings
 * Added [`-find` `-exec`](https://www.filebot.net/forums/viewtopic.php?t=12622) command
+* Add `--apply prune` to delete only truly empty folders (i.e. no hidden files)
+* Support for adding `Finder` tags on macOS via [`--apply finder`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `--db TheMovieDB` in [`-list -rename`](https://www.filebot.net/forums/viewtopic.php?t=12553) commands
 * Support `Virtual Terminal Sequences` on `Windows 10`
