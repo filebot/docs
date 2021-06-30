@@ -9,11 +9,12 @@ FileBot 4.9.4 (BETA)
 * Enhanced and more versatile `{plex}`, `{kodi}` and `{emby}` bindings
 * Use smart unit types for `{bitrate}`, `{bytes}`, `{fps}`, `{af}` and `{channels}` bindings
 * Added [`-find` `-exec`](https://www.filebot.net/forums/viewtopic.php?t=12622) command
-* Add `--apply prune` to delete only truly empty folders (i.e. no hidden files)
+* Added `--apply prune` to delete only truly empty folders (i.e. no hidden files)
 * Support for adding `Finder` tags on macOS via [`--apply finder`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `--db TheMovieDB` in [`-list -rename`](https://www.filebot.net/forums/viewtopic.php?t=12553) commands
 * Support `Virtual Terminal Sequences` on `Windows 10`
+* Support `Remote Desktop` via [`filebot-xpra`](https://github.com/filebot/filebot-docker#filebot-xpra) docker container
 * Support `Java 16`
 
 
