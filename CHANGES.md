@@ -14,7 +14,7 @@ FileBot 4.9.4 (BETA)
 * Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `--db TheMovieDB` in [`-list -rename`](https://www.filebot.net/forums/viewtopic.php?t=12553) commands
 * Support `Virtual Terminal Sequences` on `Windows 10`
-* Support `Remote Desktop` via [`filebot-xpra`](https://github.com/filebot/filebot-docker#filebot-xpra) docker container
+* Support `Remote Desktop` via [`filebot-xpra`](https://github.com/filebot/filebot-docker#readme) docker container
 * Support `Java 16`
 
 
