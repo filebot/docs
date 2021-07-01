@@ -8,7 +8,7 @@ FileBot 4.9.4 (BETA)
 * Added `{country}` production country binding
 * Enhanced and more versatile `{plex}`, `{kodi}` and `{emby}` bindings
 * Use smart unit types for `{bitrate}`, `{bytes}`, `{fps}`, `{af}` and `{channels}` bindings
-* Added [`-find` `-exec`](https://www.filebot.net/forums/viewtopic.php?t=12622) command
+* Added [`-find -exec`](https://www.filebot.net/forums/viewtopic.php?t=12622) command
 * Added `--apply prune` to delete only truly empty folders (i.e. no hidden files)
 * Support for adding `Finder` tags on macOS via [`--apply finder`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
