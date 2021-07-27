@@ -1,7 +1,7 @@
 FileBot 4.9.4 (BETA)
 =============
 * Support `find-as-you-type` in `Edit Match`
-* Support `Match Details` view via `F6` keyboard shortcut
+* Toggle `Match Details` view via `F6` keyboard shortcut
 * Improved grouping and sorting for custom [Presets](https://www.filebot.net/forums/viewtopic.php?t=3228)
 * Added `{drive}` drive letter / network share / mount point binding
 * Added `{vbr}` video bitrate and `{abr}` audio bitrate bindings
