@@ -64,6 +64,18 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
+#### Custom Character Replacement
+```groovy
+{
+	n.replace(
+		':' : '',
+		'-' : '',
+		'&' : 'and'
+	)
+}
+```
+
+
 #### Separate Anime and non-Anime episode files into different folders:
 ```groovy
 { anime ? 'Anime' : 'TV Shows' }
