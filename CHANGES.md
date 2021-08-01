@@ -11,7 +11,7 @@ FileBot 4.9.4 (BETA)
 * Use smart unit types for `{bitrate}`, `{bytes}`, `{fps}`, `{af}` and `{channels}` bindings
 * Added [`-find -exec`](https://www.filebot.net/forums/viewtopic.php?t=12622) command
 * Configure `--apply prune` to delete only truly empty folders (i.e. no hidden files)
-* Support for adding `Finder` tags on macOS via [`--apply finder`](https://www.filebot.net/forums/viewtopic.php?t=11079)
+* Support for adding `Finder` tags on macOS via [`--apply finder`](https://www.filebot.net/forums/viewtopic.php?t=12654)
 * Support for transcoding subtitle files to `SRT / UTF-8` via [`--apply srt`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `--db TheMovieDB` in [`-list -rename`](https://www.filebot.net/forums/viewtopic.php?t=12553) commands
 * Support `Virtual Terminal Sequences` on `Windows 10`
