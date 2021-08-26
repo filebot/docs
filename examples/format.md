@@ -117,7 +117,7 @@ Sword Art Online - S04E23 - New World
 ⋮
 ```
 
-#### Add alias names to the file name, original name and Chinese name if different from the main title:
+#### Add alias names to the file name, original name and Chinese name if different:
 ```groovy
 { ny } 
 { allOf{ primaryTitle }{ localize.zho.n }.joiningDistinct(', ', '[', ']'){ n.contains(it) ? null : it } }
