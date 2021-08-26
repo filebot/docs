@@ -117,11 +117,12 @@ Sword Art Online - S04E23 - New World
 ⋮
 ```
 
-#### Add alias titles to the file name, original title and German title if different:
+#### Add alias names to the file name, original name and Chinese name if different from the main title:
 ```groovy
-{ny} { allOf{ primaryTitle }{ localize.de.n }.joiningDistinct(', ', '[', ']'){ n.contains(it) ? null : it } }
+{ ny } 
+{ allOf{ primaryTitle }{ localize.zho.n }.joiningDistinct(', ', '[', ']'){ n.contains(it) ? null : it } }
 ```
 ```
-Sissi: The Young Empress (1956) [Sissi - Die junge Kaiserin]
+Sissi: The Young Empress (1956) [Sissi - Die junge Kaiserin, 茜茜公主2：年轻的皇后]
 ⋮
 ```
