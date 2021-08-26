@@ -75,14 +75,24 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 }
 ```
 
-
-#### Separate Anime and non-Anime episode files into different folders:
+#### Custom file size formatting with German locale preferences:
 ```groovy
-{ anime ? 'Anime' : 'TV Shows' }
+{ bytes.MB.format('#,000.0', 'de-DE') }
 ```
 ```
-Anime
-TV Shows
+307,1
+```
+
+#### Add Dual and Multi for 2 or more audio languages:
+```groovy
+{
+	def n = audioLanguages.size()
+	n > 2 ? "Multi" : n > 1 ? "Dual" : null
+}
+```
+```
+Multi
+Dual
 ```
 
 #### Add Dual and Multi for 2 or more audio languages:
