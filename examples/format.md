@@ -84,16 +84,6 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
-#### Add Dual and Multi for 2 or more audio languages:
-```groovy
-{
-	def n = audioLanguages.size()
-	n > 2 ? "Multi" : n > 1 ? "Dual" : null
-}
-```
-```
-Multi
-Dual
 ```
 
 #### Add Dual and Multi for 2 or more audio languages:
