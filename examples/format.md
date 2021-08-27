@@ -84,6 +84,25 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
+#### Custom audio channel count formatting:
+```groovy
+{
+	af.format(
+		8: 'DD+ 7.1',
+		7: '6.1', 
+		6: 'DD 5.1',
+		5: '5.0',
+		3: '2.1',
+		2: '2.0'
+	)
+}
+```
+```
+DD 5.1
+2.0
+⋮
+```
+
 #### Add Dual and Multi for 2 or more audio languages:
 ```groovy
 {
