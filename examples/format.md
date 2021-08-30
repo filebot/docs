@@ -115,7 +115,7 @@ Multi
 Dual
 ```
 
-#### Add airdate formatted with ordinal suffix (1st, 2nd, etc) and month name:
+#### Add airdate formatted with date ordinal suffix (1st, 2nd, etc) and month name:
 ```groovy
 {
 	airdate.format('d MMMM yyyy').replaceFirst(/\d+/) { d ->
