@@ -115,6 +115,24 @@ Multi
 Dual
 ```
 
+#### Add airdate formatted with ordinal suffix (1st, 2nd, etc) and month name:
+```groovy
+{
+	airdate.format('d MMMM yyyy').replaceFirst(/\d+/) { d ->
+		d =~ /11$|12$|13$/ ? d + 'th' : 
+		d =~ /1$/ ? d + 'st' : 
+		d =~ /2$/ ? d + 'nd' :
+		d =~ /3$/ ? d + 'rd' :
+		d + 'th'
+	}
+}
+```
+```
+3rd May 2021
+4th May 2021
+⋮
+```
+
 #### Separate movie collections and standalone movies into different folders:
 ```groovy
 { any{ 'Movie Collection' / collection }{ 'Movies' } }
