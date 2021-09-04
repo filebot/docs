@@ -1,4 +1,8 @@
-FileBot 4.9.4 (BETA)
+FileBot 4.9.5 (BETA)
+=============
+* Improved support for `{plex.id}` style file paths
+* 
+FileBot 4.9.4
 =============
 * Support `find-as-you-type` in `Edit Match`
 * Toggle `Match Details` view via [`F6`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcut
