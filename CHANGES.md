@@ -1,7 +1,7 @@
 FileBot 4.9.5 (BETA)
 =============
-* Improved support for `{plex.id}` style file paths
 * Added `{sn}` season name binding
+* Improved support for `{plex.id}` style file paths
 
 FileBot 4.9.4
 =============
