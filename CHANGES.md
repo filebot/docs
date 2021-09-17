@@ -1,5 +1,6 @@
 FileBot 4.9.5 (BETA)
 =============
+* Added `autofill` behaviour to `Edit Match` and `Edit Name`
 * Added `{sn}` season name binding
 * Improved support for `{plex.id}` style file paths
 
