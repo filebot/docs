@@ -64,6 +64,14 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
+#### Add 10bit marker to high video bit depth files:
+```groovy
+{ bitdepth == 10 ? ' [10bit]' : null }
+```
+```
+ [10bit]
+```
+
 #### Custom Character Replacement
 ```groovy
 {
