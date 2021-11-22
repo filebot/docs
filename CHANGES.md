@@ -3,8 +3,12 @@ FileBot 4.9.5 (BETA)
 * Added `autofill` behaviour to `Edit Match` and `Edit Name`
 * Added `{sn}` season name binding
 * Added `{mediaTags}` embedded media tags binding
+* Added `Media` table to `Match Details` view
+* Improved `Conflict` resolution messages
 * Improved support for `{plex.id}` style file paths
 * Enhanced `FileDialog` implementation on Linux
+* Experimental support for `TheTVDBv4`
+* Support `Java 17`
 
 
 FileBot 4.9.4
