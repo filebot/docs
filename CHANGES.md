@@ -7,7 +7,10 @@ FileBot 4.9.5 (BETA)
 * Improved `Conflict` resolution messages
 * Improved support for `{plex.id}` style file paths
 * Enhanced `FileDialog` implementation on Linux
+* Support `Open With` menu on macOS
+* Support `--` stop option parser convention
 * Experimental support for `TheTVDBv4`
+* Experimental support `Apple Silicon`
 * Support `Java 17`
 
 
