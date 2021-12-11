@@ -1,5 +1,6 @@
 FileBot 4.9.5 (BETA)
 =============
+* Added `Open` / `Reveal` / `Rename` / `Move to Trash` / `Set Attributes` context menu
 * Added `autofill` behaviour to `Edit Match` and `Edit Name`
 * Added `{sn}` season name binding
 * Added `{mediaTags}` embedded media tags binding
