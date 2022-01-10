@@ -4,6 +4,7 @@ FileBot 4.9.5 (BETA)
 * Added `autofill` behaviour to `Edit Match` and `Edit Name`
 * Added `{sn}` season name binding
 * Added `{mediaTags}` embedded media tags binding
+* Added `{certification}` and `{info.certifications}` bindings for `TheMovieDB` episode information
 * Added `Media` table to `Match Details` view
 * Improved `Conflict` resolution messages
 * Improved support for `{plex.id}` style file paths
