@@ -11,8 +11,8 @@ FileBot 4.9.5
 * Experimental support for `TheTVDBv4`
 * Enhanced `FileDialog` implementation on Linux
 * Support for updating the `Last-Modified` time stamp via [`--apply touch`](https://www.filebot.net/forums/viewtopic.php?t=11079)
-* Support `Open With` menu on macOS
 * Support `--` stop option parser convention
+* Support `Open With` menu on macOS
 * Support `Apple Silicon`
 * Support `Java 17`
 
