@@ -1,4 +1,4 @@
-FileBot 4.9.5 (BETA)
+FileBot 4.9.5
 =============
 * Added `Open` / `Reveal` / `Rename` / `Move to Trash` / `Set Attributes` context menu
 * Added `autofill` behaviour to `Edit Match` and `Edit Name`
@@ -8,12 +8,12 @@ FileBot 4.9.5 (BETA)
 * Added `Media` table to `Match Details` view
 * Improved `Conflict` resolution messages
 * Improved support for `{plex.id}` style file paths
+* Experimental support for `TheTVDBv4`
 * Enhanced `FileDialog` implementation on Linux
 * Support for updating the `Last-Modified` time stamp via [`--apply touch`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support `Open With` menu on macOS
 * Support `--` stop option parser convention
-* Experimental support for `TheTVDBv4`
-* Experimental support `Apple Silicon`
+* Support `Apple Silicon`
 * Support `Java 17`
 
 
