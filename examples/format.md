@@ -180,7 +180,7 @@ Sissi: The Young Empress (1956) [Sissi - Die junge Kaiserin, 茜茜公主2：年
 			return 'TVRip'
 
 	if (hd == 'HD')
-		if (megabytes >= 1 && mbps >= 18)
+		if (gigabytes >= 1 && mbps >= 18)
 			return 'BDRemux'
 		else if (mbps >= 8)
 			return 'BDRip'
@@ -190,7 +190,7 @@ Sissi: The Young Empress (1956) [Sissi - Die junge Kaiserin, 茜茜公主2：年
 			return 'HDRip'
 
 	if (hd == 'UHD')
-		if (megabytes >= 1 && mbps >= 32)
+		if (gigabytes >= 1 && mbps >= 32)
 			return 'UHDRemux'
 		else if (mbps >= 16)
 			return 'UHDRip'
