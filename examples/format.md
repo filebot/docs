@@ -169,3 +169,43 @@ Sword Art Online - S04E23 - New World
 Sissi: The Young Empress (1956) [Sissi - Die junge Kaiserin, 茜茜公主2：年轻的皇后]
 ⋮
 ```
+
+#### Guess source media based on resolution, bitrate and file size:
+```groovy
+{
+	if (hd == 'SD')
+		if (megabytes >= 700 && mbps >= 1.1)
+			return 'DVDRip'
+		else
+			return 'TVRip'
+
+	if (hd == 'HD')
+		if (megabytes >= 1 && mbps >= 18)
+			return 'BDRemux'
+		else if (mbps >= 8)
+			return 'BDRip'
+		else if (mbps >= 2.2)
+			return 'MicroHD'
+		else
+			return 'HDRip'
+
+	if (hd == 'UHD')
+		if (megabytes >= 1 && mbps >= 32)
+			return 'UHDRemux'
+		else if (mbps >= 16)
+			return 'UHDRip'
+		else
+			return 'MicroUHD'
+}
+```
+```
+DVDRip
+TVRip
+BDRemux
+BDRip
+MicroHD
+HDRip
+UHDRemux
+UHDRip
+MicroUHD
+```
