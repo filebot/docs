@@ -1,3 +1,8 @@
+FileBot 4.9.8
+=============
+* Added `{acf}` audio channel format tag binding
+
+
 FileBot 4.9.5
 =============
 * Added `Open` / `Reveal` / `Rename` / `Move to Trash` / `Set Attributes` context menu
