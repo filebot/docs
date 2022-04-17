@@ -2,7 +2,7 @@ FileBot 4.9.8
 =============
 * Added `Group ➔ Double Episodes` to `Episodes` context menu
 * Added `{acf}` audio channel format tag binding
-* Add `column edit` behaviour to `Edit Name`
+* Added `column edit` behaviour to `Edit Name`
 
 
 FileBot 4.9.5
