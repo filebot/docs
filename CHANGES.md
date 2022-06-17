@@ -2,8 +2,10 @@ FileBot 4.9.8
 =============
 * Added `Group ➔ Double Episodes` to `Episodes` context menu
 * Added `{acf}` audio channel format tag binding
+* Added `{cf}` file creation date binding
 * Added `column edit` behaviour to `Edit Name`
 * Support for transcoding `TMPlayer` and `MPL2` subtitle files to `SRT / UTF-8`
+* Fix drag-n-drop issues on Linux / KDE / Dolphin
 
 
 FileBot 4.9.5
