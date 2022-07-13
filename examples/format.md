@@ -64,6 +64,15 @@ Alias/Season 01/Alias - S01E01 - Truth Be Told
 ⋮
 ```
 
+#### Separate 4K Movies and non-4K Movies:
+```groovy
+{ hd == /UHD/ ? '4K Movies' : 'Movies' }
+```
+```
+4K Movies
+Movies
+```
+
 #### Add 10bit marker to high video bit depth files:
 ```groovy
 { bitdepth == 10 ? ' [10bit]' : null }
