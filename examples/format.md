@@ -81,6 +81,14 @@ Movies
  [10bit]
 ```
 
+#### Add `{[source]-[id]}` and `{edition-[Edition Name]}` markers:
+```groovy
+{ "{imdb-${imdbid}}" } { "{edition-${tags[0]}}" }
+```
+```
+{imdb-tt0499549} {edition-Extended}
+```
+
 #### Custom Character Replacement
 ```groovy
 {
