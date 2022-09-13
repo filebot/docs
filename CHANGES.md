@@ -2,6 +2,7 @@ FileBot 4.9.8
 =============
 * Added [Default Presets](https://www.filebot.net/help/presets.html) for assorted use cases
 * Added `Group ➔ Double Episodes` to `Episodes` context menu
+* Added `{jellyfin}` binding (i.e. Jellyfin naming standard)
 * Added `{acf}` audio channel format tag binding
 * Added `{cf}` file creation date binding
 * Added `column edit` behaviour to `Edit Name`
