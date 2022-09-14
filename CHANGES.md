@@ -1,5 +1,6 @@
 FileBot 4.9.8
 =============
+* Added `Digital Order` and `Production Order` support for `TheMovieDB` episode information
 * Added [Default Presets](https://www.filebot.net/help/presets.html) for assorted use cases
 * Added `Group ➔ Double Episodes` to `Episodes` context menu
 * Added `{jellyfin}` binding (i.e. Jellyfin naming standard)
