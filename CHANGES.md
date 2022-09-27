@@ -9,6 +9,7 @@ FileBot 4.9.8
 * Added `column edit` behaviour to `Edit Name`
 * Added [`CTRL+O`](https://www.filebot.net/forums/viewtopic.php?t=12703) and [`CTRL+L`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcuts for `Open` and `Reveal`
 * Added [`CTRL+M`](https://www.filebot.net/forums/viewtopic.php?t=12703) and [`CTRL+N`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcuts for `Edit Match` and `Edit Name`
+* Support for setting `POSIX permissions` via [`--apply chmod`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support for transcoding `TMPlayer` and `MPL2` subtitle files to `SRT / UTF-8`
 * Fix drag-n-drop issues on Linux / KDE / Dolphin
 
