@@ -1,4 +1,4 @@
-FileBot 4.9.8
+FileBot 5.0.0
 =============
 * Added `Digital Order` and `Production Order` support for `TheMovieDB` episode information
 * Added [Default Presets](https://www.filebot.net/help/presets.html) for assorted use cases
@@ -6,11 +6,13 @@ FileBot 4.9.8
 * Added `{jellyfin}` binding (i.e. Jellyfin naming standard)
 * Added `{acf}` audio channel format tag binding
 * Added `{cf}` file creation date binding
+* Enhanced `{hd}` with support for additional HD resolutions (i.e. `UHD` / `QHD` / `FHD` / `HD` / `SD`)
 * Added `column edit` behaviour to `Edit Name`
 * Added [`CTRL+O`](https://www.filebot.net/forums/viewtopic.php?t=12703) and [`CTRL+L`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcuts for `Open` and `Reveal`
 * Added [`CTRL+M`](https://www.filebot.net/forums/viewtopic.php?t=12703) and [`CTRL+N`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcuts for `Edit Match` and `Edit Name`
 * Support for setting `POSIX permissions` via [`--apply chmod`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support for transcoding `TMPlayer` and `MPL2` subtitle files to `SRT / UTF-8`
+* Enable `TheTVDBv4` by default
 * Fix drag-n-drop issues on Linux / KDE / Dolphin
 
 
