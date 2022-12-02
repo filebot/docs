@@ -14,6 +14,7 @@ FileBot 5.0.0
 * Support for `Extras` via [`--apply import`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support for transcoding `TMPlayer` and `MPL2` subtitle files to `SRT / UTF-8`
 * Enable `TheTVDBv4` by default
+* Enable `HTTP/2` by default
 * Fix drag-n-drop issues on Linux / KDE / Dolphin
 
 
