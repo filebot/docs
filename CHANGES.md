@@ -7,6 +7,7 @@ FileBot 5.0.0
 * Added `{acf}` audio channel format tag binding
 * Added `{cf}` file creation date binding
 * Enhanced `{hd}` with support for additional HD resolutions (i.e. `UHD` / `QHD` / `FHD` / `HD` / `SD`)
+* Enhanced `Match` auto-align behaviour
 * Added `column edit` behaviour to `Edit Name`
 * Added [`CTRL+O`](https://www.filebot.net/forums/viewtopic.php?t=12703) and [`CTRL+L`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcuts for `Open` and `Reveal`
 * Added [`CTRL+M`](https://www.filebot.net/forums/viewtopic.php?t=12703) and [`CTRL+N`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcuts for `Edit Match` and `Edit Name`
