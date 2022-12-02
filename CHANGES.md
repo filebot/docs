@@ -19,7 +19,7 @@ FileBot 5.0.0
 * Fix drag-n-drop issues on Linux / KDE / Dolphin
 
 
-FileBot 4.9.5
+FileBot 4.9.6
 =============
 * Added `Open` / `Reveal` / `Rename` / `Move to Trash` / `Set Attributes` context menu
 * Added `autofill` behaviour to `Edit Match` and `Edit Name`
