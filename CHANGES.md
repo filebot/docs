@@ -3,7 +3,7 @@ FileBot 5.0.0
 * Added support for `Digital` and `Production` and `Story Arc` episode order preferences
 * Added [Default Presets](https://www.filebot.net/help/presets.html) for assorted use cases
 * Added `Group ➔ Double Episodes` to `Episodes` context menu
-* Added `{jellyfin}` binding (i.e. Jellyfin naming standard)
+* Added `{jellyfin}` binding (i.e. [Jellyfin naming standard](https://www.filebot.net/forums/viewtopic.php?t=4116))
 * Added `{acf}` audio channel format tag binding
 * Added `{cf}` file creation date binding
 * Added `{relativeFile}` relative library path binding
