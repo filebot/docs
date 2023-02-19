@@ -5,7 +5,7 @@ FileBot 5.0.0
 * Added `Group ➔ Double Episodes` to `Episodes` context menu
 * Added `{jellyfin}` binding (i.e. [Jellyfin naming standard](https://www.filebot.net/forums/viewtopic.php?t=4116))
 * Added `{acf}` audio channel format tag binding
-* Added `{cf}` file creation date binding
+* Added `{ct}` file creation date binding
 * Added `{relativeFile}` relative library path binding
 * Enhanced `{hd}` with support for additional HD resolutions (i.e. `UHD` / `QHD` / `FHD` / `HD` / `SD`)
 * Enhanced `Match` auto-align behaviour
