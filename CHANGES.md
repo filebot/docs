@@ -14,6 +14,8 @@ FileBot 5.0.0
 * Added [`CTRL+M`](https://www.filebot.net/forums/viewtopic.php?t=12703) and [`CTRL+N`](https://www.filebot.net/forums/viewtopic.php?t=12703) keyboard shortcuts for `Edit Match` and `Edit Name`
 * Support for setting `POSIX permissions` via [`--apply chmod`](https://www.filebot.net/forums/viewtopic.php?t=11079)
 * Support for `Extras` via [`--apply import`](https://www.filebot.net/forums/viewtopic.php?t=11079)
+* Support for [custom `--apply` actions](https://www.filebot.net/forums/viewtopic.php?t=11079)
+* Support for [custom `--conflict` actions](https://www.filebot.net/forums/viewtopic.php?t=12891)
 * Support for transcoding `TMPlayer` and `MPL2` subtitle files to `SRT / UTF-8`
 * Enable `TheTVDBv4` by default
 * Enable `HTTP/2` by default
