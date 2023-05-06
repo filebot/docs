@@ -1,3 +1,9 @@
+FileBot 5.0.3
+=============
+* Use [`Series Name (Year)`](https://kodi.wiki/view/Naming_video_files/TV_shows) naming in the `{kodi}` binding
+* Use `--action` for [`--apply import`](https://www.filebot.net/forums/viewtopic.php?t=11079) file operations
+
+
 FileBot 5.0.0
 =============
 * Added support for `Digital` and `Production` and `Story Arc` episode order preferences
