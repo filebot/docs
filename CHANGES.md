@@ -1,7 +1,7 @@
 FileBot 5.0.3
 =============
-* Use [`Series Name (Year)`](https://kodi.wiki/view/Naming_video_files/TV_shows) naming in the `{kodi}` binding
-* Use `--action` for [`--apply import`](https://www.filebot.net/forums/viewtopic.php?t=11079) file operations
+* Use `Series Name (Year)` naming in the `{kodi}` binding
+* Use `--action` for `--apply import` file operations
 * Improved support for `.xattr` folders with `--apply import` and `--apply prune` post-processing features
 
 
