@@ -3,6 +3,7 @@ FileBot 5.0.3
 * Use `Series Name (Year)` naming in the `{kodi}` binding
 * Use `--action` for `--apply import` file operations
 * Improved support for `.xattr` folders with `--apply import` and `--apply prune` post-processing features
+* Improved support for [external format files](https://www.filebot.net/forums/viewtopic.php?t=10839)
 
 
 FileBot 5.0.0
