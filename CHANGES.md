@@ -1,5 +1,12 @@
+FileBot 5.1.0
+=============
+* Support [custom post-processing scripts](https://www.filebot.net/forums/viewtopic.php?p=60301#p60301)
+* Improved support for `xfs` and `bcachefs`
+
+
 FileBot 5.0.3
 =============
+
 * Use `Series Name (Year)` naming in the `{kodi}` binding
 * Use `--action` for `--apply import` file operations
 * Improved support for `.xattr` folders with `--apply import` and `--apply prune` post-processing features
