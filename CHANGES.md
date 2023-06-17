@@ -1,6 +1,6 @@
 FileBot 5.1.0
 =============
-* Support [custom post-processing scripts](https://www.filebot.net/forums/viewtopic.php?p=60301#p60301)
+* Support [custom post-processing scripts](https://www.filebot.net/forums/viewtopic.php?t=13769)
 * Improved support for `xfs` and `bcachefs`
 
 
