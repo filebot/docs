@@ -5,7 +5,12 @@ FileBot 5.1.0
 * Added `{medium}` binding
 * Added `{episodelist}` binding
 * Added `--file-order` option (e.g. `--file-order resolution`)
+* Cache `mediainfo` and `ffprobe` output
+* Improved `--mode interactive` series selection
+* Improved support for `EXIF` metadata
 * Improved support for `xfs` and `bcachefs`
+* Added `system.properties` editor
+* Resolve commands against the `%PATH%` on Windows
 
 
 FileBot 5.0.3
