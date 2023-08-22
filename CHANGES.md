@@ -11,6 +11,7 @@ FileBot 5.1.0
 * Improved support for `xfs` and `bcachefs`
 * Added `system.properties` editor
 * Resolve commands against the `%PATH%` on Windows
+* Improved `extattr` support on `BSD` platforms
 * Improved support for [nested include files](https://www.filebot.net/forums/viewtopic.php?t=10839)
 
 
