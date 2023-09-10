@@ -1,3 +1,12 @@
+FileBot 5.1.1
+=============
+* Added {language} original language binding
+* Added `{mediaFileName}` media file name without extension binding
+* Improved `csv()` parser
+* Support for [companion files](https://www.filebot.net/forums/viewtopic.php?t=12172) in `Music Mode`
+* Support for `clone & delete` cross-subvolume `move` operations on `Linux / BTRFS`
+* Improved support for `clone` operations on `macOS / APFS` and `Linux / BTRFS`
+
 FileBot 5.1.0
 =============
 * Support [custom post-processing scripts](https://www.filebot.net/forums/viewtopic.php?t=13769)
