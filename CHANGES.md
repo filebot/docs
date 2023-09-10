@@ -1,6 +1,6 @@
 FileBot 5.1.1
 =============
-* Added {language} original language binding
+* Added `{language}` original language binding
 * Added `{mediaFileName}` media file name without extension binding
 * Improved `csv()` parser
 * Support for [companion files](https://www.filebot.net/forums/viewtopic.php?t=12172) in `Music Mode`
