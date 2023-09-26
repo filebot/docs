@@ -2,6 +2,7 @@ FileBot 5.1.1
 =============
 * Added `{language}` original language binding
 * Added `{mediaFileName}` media file name without extension binding
+* Added `{dovi}` Dolby Vision tag binding
 * Improved `csv()` parser
 * Support for [companion files](https://www.filebot.net/forums/viewtopic.php?t=12172) in `Music Mode`
 * Support for `clone & delete` cross-subvolume `move` operations on `Linux / BTRFS`
