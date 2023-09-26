@@ -6,6 +6,7 @@ FileBot 5.1.1
 * Improved `csv()` parser
 * Support for [companion files](https://www.filebot.net/forums/viewtopic.php?t=12172) in `Music Mode`
 * Support for `clone & delete` cross-subvolume `move` operations on `Linux / BTRFS`
+* Support for `WM_QUERYENDSESSION` events on Windows
 * Improved support for `clone` operations on `macOS / APFS` and `Linux / BTRFS`
 
 FileBot 5.1.0
