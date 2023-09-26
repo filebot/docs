@@ -1,4 +1,4 @@
-FileBot 5.1.1
+FileBot 5.1.2
 =============
 * Added `{language}` original language binding
 * Added `{mediaFileName}` media file name without extension binding
