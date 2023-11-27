@@ -1,3 +1,7 @@
+FileBot 5.1.3
+=============
+* Improved charset detection
+
 FileBot 5.1.2
 =============
 * Added `{plex.year}` [plex format with year](https://www.filebot.net/forums/viewtopic.php?t=4116) binding
