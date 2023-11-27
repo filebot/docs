@@ -1,5 +1,6 @@
 FileBot 5.1.3
 =============
+* Added support for `Official` episode order
 * Improved charset detection
 
 FileBot 5.1.2
