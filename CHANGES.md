@@ -2,6 +2,7 @@ FileBot 5.1.3
 =============
 * Added support for `Official` episode order
 * Improved charset detection
+* Experimental support for `OpenSubtitles REST API`
 
 FileBot 5.1.2
 =============
