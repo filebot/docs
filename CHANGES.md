@@ -1,3 +1,8 @@
+FileBot 5.1.4
+=============
+* Improved charset detection
+* Improved support for `KDE Plasma 6`
+
 FileBot 5.1.3
 =============
 * Added support for `Official` episode order
