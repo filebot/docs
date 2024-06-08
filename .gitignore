@@ -14,3 +14,7 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+# thumbnail caches
+.DS_Store
+Thumbs.db
