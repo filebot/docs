@@ -1,7 +1,14 @@
 FileBot 5.1.4
 =============
+* Enable multi-selection for `DELETE`, `UP` and `DOWN`
+* Improved `{kodi.id}` binding
+* Improved series / episode auto-detection
 * Improved charset detection
-* Improved support for `KDE Plasma 6`
+* Improved error messages
+* Added `--apply thumbnail` post-processing feature to generate movie / episode thumbnails
+* Added hidden version / revision information label
+* Support for `DWMWA_USE_IMMERSIVE_DARK_MODE` on `Windows 11`
+* Support for `KDE Plasma 6`
 
 FileBot 5.1.3
 =============
