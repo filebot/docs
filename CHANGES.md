@@ -1,3 +1,7 @@
+FileBot 5.1.5
+=============
+* Improved support for `Google Drive` virtual folders on `macOS`
+
 FileBot 5.1.4
 =============
 * Enable multi-selection for `DELETE`, `UP` and `DOWN`
