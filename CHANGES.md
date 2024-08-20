@@ -1,7 +1,7 @@
 FileBot 5.1.5
 =============
+* Improved series / episode auto-detection
 * Improved support for `Google Drive` virtual folders on `macOS`
-* Fix RPM packages
 
 FileBot 5.1.4
 =============
