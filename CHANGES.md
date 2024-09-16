@@ -1,3 +1,7 @@
+FileBot 5.1.6
+=============
+* Improved support for `i3` and `sway` on Linux
+
 FileBot 5.1.5
 =============
 * Improved series / episode auto-detection
