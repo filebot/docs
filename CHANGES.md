@@ -1,9 +1,9 @@
 FileBot 5.1.6
 =============
+* Enable `OpenSubtitles REST API` by default
 * Improved series / episode auto-detection
 * Improved support for `i3` and `sway` on Linux
-* Enable `OpenSubtitles REST API` by default
-* Experimental support for `arm64` on `Windows 11`
+* Support for `arm64` on `Windows 11`
 
 FileBot 5.1.5
 =============
