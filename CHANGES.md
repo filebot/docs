@@ -1,3 +1,11 @@
+FileBot 5.1.7
+=============
+* Improved series / episode auto-detection
+* Support for [custom ChatGPT prompt](https://www.filebot.net/forums/viewtopic.php?t=14137) integrations
+* Support for [custom page scraper](https://www.filebot.net/forums/viewtopic.php?t=14137) integrations
+* Improved support for [custom rename actions](https://www.filebot.net/forums/viewtopic.php?t=4915) on `Windows` platforms
+* Improved support for `arm64` on `Windows 11`
+
 FileBot 5.1.6
 =============
 * Enable `OpenSubtitles REST API` by default
