@@ -1,3 +1,14 @@
+FileBot 5.2.0
+=============
+* Support for matching or re-matching selected items
+* Improved movie auto-detection
+* Improved `{db}` binding to support mapping from `TheTVDB` to `TheMovieDB` and vice versa
+* Improved `{anime}` heuristics
+* Added `{chapters}` binding
+* Improved support for `*.dng` image files
+* Improved support for loading a very large number of files from a [remote file system](https://www.filebot.net/forums/viewtopic.php?t=12022)
+* Improved thumbnail quality and compression
+
 FileBot 5.1.7
 =============
 * Improved series / episode auto-detection
