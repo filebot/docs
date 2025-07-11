@@ -4,6 +4,7 @@ FileBot 5.2.0
 * Improved movie auto-detection
 * Improved `{db}` binding to support mapping from `TheTVDB` to `TheMovieDB` and vice versa
 * Improved `{anime}` heuristics
+* Added `{vk}` binding for tagging `4K` / `8K` files
 * Added `{chapters}` binding
 * Improved support for `*.dng` image files
 * Improved support for loading a very large number of files from a [remote file system](https://www.filebot.net/forums/viewtopic.php?t=12022)
