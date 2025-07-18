@@ -2,7 +2,7 @@ FileBot 5.2.0
 =============
 * Support for matching or re-matching selected items
 * Improved movie auto-detection
-* Improved `{runtime}` binding to now provide Episode-specific runtime information
+* Improved `{runtime}` binding to now provide `Episode-specific` runtime information
 * Improved `{db}` binding to support mapping from `TheTVDB` to `TheMovieDB` and vice versa
 * Improved `{anime}` heuristics
 * Added `{vk}` binding for tagging `4K` / `8K` files
