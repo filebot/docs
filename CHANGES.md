@@ -9,6 +9,7 @@ FileBot 5.2.0
 * Added `{chapters}` binding
 * Improved support for `*.dng` image files
 * Improved support for loading a very large number of files from a [remote file system](https://www.filebot.net/forums/viewtopic.php?t=12022)
+* Improved support for multi-monitor environments
 * Improved thumbnail quality and compression
 
 FileBot 5.1.7
