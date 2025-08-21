@@ -7,6 +7,9 @@ FileBot 5.2.0
 * Improved `{anime}` heuristics
 * Added `{vk}` binding for tagging `4K` files
 * Added `{chapters}` binding
+* Suggest `Opportunistic Mode` when `Strict Mode` fails to match the files at hand
+* Suggest `Manual Selection` when `Automatic Selection` fails to match the files at hand
+* Suggest `Absolute Order` when `Airdate Order` fails to match the files at hand
 * Improved support for `*.dng` image files
 * Improved support for loading a very large number of files from a [remote file system](https://www.filebot.net/forums/viewtopic.php?t=12022)
 * Improved support for multi-monitor environments
