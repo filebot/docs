@@ -2,7 +2,7 @@ FileBot 5.2.0
 =============
 * Support for matching or re-matching selected items
 * Improved movie / episode auto-detection
-* Improved `{hdr}` binding
+* Improved `{hdr}` binding to distinguish `DV` and `DV+HDR10`
 * Improved `{runtime}` binding to provide episode-specific runtime information
 * Improved `{db}` binding to support mapping from `TheTVDB` to `TheMovieDB` and vice versa
 * Improved `{anime}` heuristics
