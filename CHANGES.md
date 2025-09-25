@@ -1,3 +1,9 @@
+FileBot 5.2.1
+=============
+* Fix `{hdr}` backwards compatibility issues
+* Fix `{plex.tail}` or `{plex[1]}` custom format issues on Windows
+* Fix `Path.toRealPath(LinkOption.NOFOLLOW_LINKS)` performance issues on macOS
+
 FileBot 5.2.0
 =============
 * Support for matching or re-matching selected items
