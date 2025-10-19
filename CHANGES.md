@@ -1,5 +1,8 @@
 FileBot 5.2.1
 =============
+* Enhanced support for SMB network shares
+* Enhanced movie details tooltip
+* Enhanced background task management
 * Fix `{hdr}` backwards compatibility issues
 * Fix `{plex.tail}` or `{plex[1]}` custom format issues on Windows
 * Fix `Path.toRealPath(LinkOption.NOFOLLOW_LINKS)` performance issues on macOS
