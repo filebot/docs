@@ -1,5 +1,6 @@
 FileBot 5.2.1
 =============
+* Added `SPACE` bar shortcut to show / hide match details
 * Enhanced support for SMB network shares
 * Enhanced movie details tooltip
 * Enhanced background task management
