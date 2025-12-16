@@ -1,7 +1,7 @@
 FileBot 5.2.1
 =============
 * Added `SPACE` bar shortcut to show / hide match details
-* Added support for `custom file order` expressions in [Presets](https://www.filebot.net/help/presets.html)
+* Added support for [custom file order](https://www.filebot.net/help/file-order.html) expressions in [Presets](https://www.filebot.net/help/presets.html)
 * Enhanced support for SMB network shares
 * Enhanced movie details tooltip
 * Enhanced background task management
