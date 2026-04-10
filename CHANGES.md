@@ -1,3 +1,11 @@
+FileBot 5.2.2
+=============
+* Support for [TheDiscDB](https://thediscdb.com/series) episode mapping information (i.e. improved automatic matching for file names like `Disc_1_t01` or `00001_t01` if mapping information is available)
+* Support for `en-US` locale-style language codes
+* Improved series / episode auto-detection
+* Improved integration with `Windows 11`
+* Improved integration with `Terminal` on `Windows 11`
+
 FileBot 5.2.1
 =============
 * Added support for [custom file order](https://www.filebot.net/help/file-order.html) expressions in [Presets](https://www.filebot.net/help/presets.html)
