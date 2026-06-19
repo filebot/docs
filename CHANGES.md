@@ -1,3 +1,9 @@
+FileBot 5.2.4
+=============
+* Enable `-XX:+UseStringDeduplication` by default on Windows and macOS platforms
+* Support for `single instance` mode on Windows and Unix platforms (disabled by default)
+* Support for `macOS 27`
+
 FileBot 5.2.3
 =============
 * Support for [TheDiscDB](https://thediscdb.com/series) episode mapping information (i.e. improved automatic matching for file names like `Disc_1_t01` or `00001_t01` if mapping information is available)
