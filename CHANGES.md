@@ -1,5 +1,6 @@
 FileBot 5.2.4
 =============
+* Improved `acf` binding behaviour
 * Enable `-XX:+UseStringDeduplication` by default on Windows and macOS platforms
 * Support for `single instance` mode on Windows and Unix platforms (disabled by default)
 * Support for `macOS 27`
