@@ -4,8 +4,9 @@ FileBot 5.3.0
 * Improved `column edit` behaviour
 * Improved `{acf}` binding behaviour
 * Enable `-XX:+UseStringDeduplication` by default
-* Support for `single instance` mode on Windows and Unix platforms
-* Support for `macOS 27`
+* Support for `single instance mode`
+* Support for `JDK 26`
+* Support for `macOS 27 Golden Gate`
 
 FileBot 5.2.3
 =============
