@@ -1,7 +1,7 @@
 FileBot 5.3.0
 =============
 * Improved movie / series / episode auto-detection
-* Improved column edit behaviour
+* Improved `column edit` behaviour
 * Improved `{acf}` binding behaviour
 * Enable `-XX:+UseStringDeduplication` by default
 * Support for `single instance` mode on Windows and Unix platforms
