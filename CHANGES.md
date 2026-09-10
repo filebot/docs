@@ -1,8 +1,10 @@
-FileBot 5.2.4
+FileBot 5.3.0
 =============
+* Improved movie / series / episode auto-detection
+* Improved column edit behaviour
 * Improved `{acf}` binding behaviour
-* Enable `-XX:+UseStringDeduplication` by default on Windows and macOS platforms
-* Support for `single instance` mode on Windows and Unix platforms (disabled by default)
+* Enable `-XX:+UseStringDeduplication` by default
+* Support for `single instance` mode on Windows and Unix platforms
 * Support for `macOS 27`
 
 FileBot 5.2.3
