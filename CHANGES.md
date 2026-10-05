@@ -1,3 +1,7 @@
+FileBot 5.3.1
+=============
+* Support for reading [xattr metadata](https://www.filebot.net/help/xattr.html) from `@SynoEAStream` files
+
 FileBot 5.3.0
 =============
 * Improved movie / series / episode auto-detection
