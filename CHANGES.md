@@ -1,5 +1,7 @@
 FileBot 5.3.1
 =============
+* Improved movie / series / episode auto-detection
+* Improved support for long file paths
 * Support for reading [xattr metadata](https://www.filebot.net/help/xattr.html) from `@SynoEAStream` files on `Synology NAS`
 * Support for reading [xattr metadata](https://www.filebot.net/help/xattr.html) from `.streams` directory on `QNAP NAS`
 
