@@ -5,6 +5,7 @@ FileBot 5.3.1
 * Improved `Column Edit` tools
 * Support for reading [xattr metadata](https://www.filebot.net/help/xattr.html) from `@SynoEAStream` files on `Synology NAS`
 * Support for reading [xattr metadata](https://www.filebot.net/help/xattr.html) from `.streams` directory on `QNAP NAS`
+* Improved support for `macOS 27 Golden Gate`
 
 FileBot 5.3.0
 =============
